@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 -- Use jj to exit insert mode
-vim.api.nvim_set_keymap("i", "jj", "<Esc>", {})
+vim.api.nvim_set_keymap("i", "jj", "<Esc>", { desc = "Exit insert mode" })
