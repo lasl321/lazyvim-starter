@@ -1,0 +1,13 @@
+{
+  "Class Definition": {
+    "prefix": "myclass",
+    "body": [
+      "class ${1:name} {",
+      "\tconstructor(${2:parameters}) {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "Class Definition"
+  }
+}
