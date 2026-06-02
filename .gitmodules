@@ -1,0 +1,3 @@
+[submodule "snippets/vscode-vitest-snippets"]
+	path = snippets/vscode-vitest-snippets
+	url = git@github.com:deinsoftware/vscode-vitest-snippets.git
