@@ -1,0 +1,7 @@
+{
+  "Effect.gen": {
+    "prefix": "efg",
+    "body": ["Effect.gen(function*() { $0 })"],
+    "description": "Effect.gen"
+  }
+}

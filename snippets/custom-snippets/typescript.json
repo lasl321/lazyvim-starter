@@ -1,13 +1,17 @@
 {
-  "Class Definition": {
-    "prefix": "myclass",
-    "body": [
-      "class ${1:name} {",
-      "\tconstructor(${2:parameters}) {",
-      "\t\t$0",
-      "\t}",
-      "}"
-    ],
-    "description": "Class Definition"
+  "Inline arrow function": {
+    "prefix": "lami",
+    "body": ["() => $0"],
+    "description": "An inline arrow function"
+  },
+  "Braced arrow function": {
+    "prefix": "lam",
+    "body": ["() => {", "\t$0", "}"],
+    "description": "An arrow function with braces"
+  },
+  "Generator function": {
+    "prefix": "gen",
+    "body": ["function*() { $0 }"],
+    "description": "Generator function"
   }
 }
