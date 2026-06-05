@@ -1,12 +1,12 @@
 {
   "Inline arrow function": {
     "prefix": "lami",
-    "body": ["() => $0"],
+    "body": ["($1) => $0"],
     "description": "An inline arrow function"
   },
   "Braced arrow function": {
     "prefix": "lam",
-    "body": ["() => {", "\t$0", "}"],
+    "body": ["($1) => {", "\t$0", "}"],
     "description": "An arrow function with braces"
   },
   "Generator function": {
